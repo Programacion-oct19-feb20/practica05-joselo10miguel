@@ -20,7 +20,11 @@ public class OperadoresLogicos {
         System.out.printf("And: %s & %s = %s\n", valorA, valorB, 
                 valorA & valorB);
         System.out.printf("And: %s | %s = %s\n", valorA, valorB, 
-                valorA | valorB);
+                valorA | valorB);// V and F= F
+                                 //V and V=V
+                                 // F andF=F
+                                 // V OR v = v
+                                 //
        
         
     }

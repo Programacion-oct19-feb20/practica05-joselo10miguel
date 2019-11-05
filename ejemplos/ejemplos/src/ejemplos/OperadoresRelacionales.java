@@ -13,12 +13,12 @@ public class OperadoresRelacionales {
 
     public static void main(String[] args) {
         int valorA = 10;
-        int valorB = 2;
+        int valorB = 10;
 
         System.out.printf("Igualdad: %d == %d = %s\n", valorA, valorB,
-                valorA == valorB);
+                valorA == valorB); // == se representa igula
         System.out.printf("Desigualdad: %d != %d = %s\n", valorA, valorB,
-                valorA != valorB);
+                valorA != valorB); // ! negacion
         System.out.printf("Mayor: %d > %d = %s\n", valorA, valorB,
                 valorA > valorB);
         System.out.printf("Menor: %d < %d = %s\n", valorA, valorB,
